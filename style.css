@@ -1,0 +1,60 @@
+header{
+    background-color: #313e4f;
+    color: #fff;
+}
+
+#logo{
+    font-weight: 650;
+    font-size: 18px;
+    color: #fff;
+}
+
+.icon-bar{
+    background-color:  #fff;
+}
+
+#menu{
+    border: 1px solid ;
+}
+
+.navbar{
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+.jumbotron{
+    background-color: #66ba9e;
+    text-align: center;
+    color: #fff;
+}
+
+#title{
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+
+#lista li{
+    font-weight: 600;
+    display: inline-block;
+}
+
+#lista a {
+    color:#fff;
+}
+#lista a:hover{
+    background-color:#555;
+}
+
+#stella{
+    font-size: 25px;
+}
+
+#grafic{
+    margin-top: 1em;
+}
+
+.line{
+    border-bottom: 3px solid #fff;
+    border-radius: 5px;
+}
