@@ -20,7 +20,7 @@
 }
 
 .jumbotron{
-    background-color: #66ba9e;
+    background-color: #1abc9c;
     text-align: center;
     color: #fff;
     padding-top: 150px;
@@ -90,11 +90,11 @@
 
 }
 
-.portfolio h2, .portfolio .separatore i{
+.section-light h2, .section-light .separatore i{
     color: #313e4f;
 }
-.portfolio .separatore::before,
-.portfolio .separatore::after{
+.section-light .separatore::before,
+.section-light .separatore::after{
     background-color: #313e4f;
 }
 
@@ -133,4 +133,68 @@
 
 .box:hover .plus{
     display: block;
+}
+
+.about{
+    background-color: #1abc9c;
+}
+
+.about h2, .about .separatore i{
+    color: #fff;
+}
+
+.testo{
+    color:#fff;
+    font-weight: 600px;
+    font-size: 18px;
+}
+
+#get-it{
+    margin-top: 50px;
+    padding:20px 45px;
+    background-color: #1abc9c;
+    color:#fff;
+    border: 2px solid #fff;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+#get-it:hover{
+    background-color: #fff;
+    color:#313e4f;
+
+}
+
+.form{
+    padding: 40px;
+    color: #888;
+    font-size: 18px;
+}
+
+.form-group input, .form-group textarea {
+border-top:none;
+border-left:none;
+border-right:none;
+box-shadow: none;
+border-radius:0;
+margin-bottom: 50px;
+}
+
+.form input:last-child{
+
+}
+
+.send{
+    padding:0 40px;
+}
+
+.send input{
+    background-color:  #1abc9c;
+    color: #fff;
+    padding:20px 30px;
+}
+
+.send input:hover{
+    color: #fff;
+    background-color: #16af91;
 }
